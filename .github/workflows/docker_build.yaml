@@ -17,6 +17,6 @@ jobs:
       - name: Build and push
         uses: TRAPS-RoboCup/traps-github-action/docker-build-ros2-pkg@main
         with:
-          # token: ${{ secrets.PAT }}
+          token: ${{ secrets.PAT }}
           platforms: llinux/arm64/v8
           # rosdistro: humble
